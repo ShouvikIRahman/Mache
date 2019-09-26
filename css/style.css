@@ -1,0 +1,368 @@
+/*Basic Information */
+/********************/
+/*Name: Shouvik Rahman
+Email: Shouvik129353@gmail.com
+Website:xyz.com
+*/
+
+/******************************/
+/************Index************/
+/*
+1. */
+
+
+/*Navigation*/
+
+.html{
+    background-color:whitesmoke;
+}
+
+.no-margin{
+    margin:0px !important;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+.hero{
+    background:url(../img/hero-bg.png) center top;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    
+
+}
+
+.hero h1{
+    color:white;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.hero p{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    margin-top:32px;
+}
+
+
+
+.nav-link.js-scroll-trigger.active{
+    color:#ed145b;
+}
+
+.nav-link{
+    padding:auto 16px;
+    color:slategray;
+    transition:0.3s ease;
+    font-family: 'Lato', sans-serif;
+}
+.nav-link:hover{
+    border-bottom:2px solid #ed145b;
+    color:slategrey;
+}
+
+.span-basic{
+    color:transparent;
+    margin-top:32px;
+    border-bottom:2px solid #ed145b;
+}
+
+.btm{
+    margin-top:30px;
+    margin-bottom:2px;
+    background-color: #ed145b;
+    color:white;
+    text-transform:uppercase;
+    font-size:16px;
+    border:none;
+    border-radius:20px;
+    transition:0.3s ease;
+    font-family: 'Lato', sans-serif;
+    padding:5px 12px;
+}
+
+.btm:hover{
+    background-color: white;
+    color:#ed145b;
+    border:1px solid #ed145b;
+    border-radius:20x;
+
+}
+
+.about{
+    color:#5a5a5a;
+    background-color:whitesmoke;
+}
+
+.about h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.about p{
+    margin-top:35px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+
+}
+.about a{
+    color:#ed145b;
+    text-transform:uppercase;
+    font-family: 'Lato', sans-serif;
+    text-decoration:none;
+    transition:0.3s ease;
+
+}
+.about a:hover{
+    font-weight:700;
+    
+
+}
+
+.fa.fa-play-circle{
+    background-color: white;
+    color:#ed145b;
+    border-radius:50%;
+    border:0.2px solid #ed145b;
+}
+.fa.fa-bars{
+    color:#ed145b;
+}
+
+.services-content{
+    padding-bottom:50px;
+}
+.services h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.services p{
+    margin-top:35px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+.services h5{
+    display:inline-block;
+    margin-top:25px;
+    color:#ed145b;
+    text-transform:uppercase;
+    transition:0.3s ease;
+    padding-bottom:3px;
+}
+.services h5:hover{
+    border-bottom:1px solid #ed145b;
+    cursor:pointer;
+}
+
+.services-img{
+    margin-top:86px;
+}
+.carousel-item{
+    position:relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 21%;
+}
+.price{
+    color:#5a5a5a;
+    background-color:whitesmoke;
+}
+
+.price-content h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.price-content p{
+    margin-top:35px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.card{
+    margin-top:20px;
+}
+.card-body{
+    position:relative;
+}
+
+.btm-three {
+    padding: 5px 37px;
+    color: slategray;
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    position: absolute;
+    top: -8%;
+    left: 24%;
+    text-transform: uppercase;
+    
+   
+}
+
+.btm-three:hover{
+    color:white;
+    background-color: #ed145b;
+}
+
+.btm-two{
+    padding:5px 30px;
+    color:white;
+    background-color: #ed145b;
+    border:none;
+    border-radius:20px;
+    transition:0.3s ease;
+    text-transform: uppercase;
+}
+.btm-two:hover{
+    color:#ed145b;
+    background-color: whitesmoke;
+    border:1px solid #ed145b;
+}
+
+
+.card-title p{
+    margin-top:5px;
+}
+
+.span-one {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: -18%;
+}
+.card-body h2 {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: -51%;
+    left: 44%;
+}
+
+.special {
+    position: absolute;
+    top: -26%;
+    left: 39%;
+    color: white;
+}
+
+.edit{
+    background-color: white;
+}
+.edit h5{
+    color:#ed145b;
+    font-family: 'Lato', sans-serif;
+}
+.edit img {
+    display: block;
+    margin: 0 auto;
+}
+
+.edit p{
+    color:Slategrey;
+    text-align:left;
+    font-family: 'Lato', sans-serif;
+}
+
+.edit-content{
+    margin-top:20px;
+}
+
+.member{
+    background-color: #ed145b;
+    color:white;
+    position:relative;
+}
+
+.member p{
+    font-family: 'Lato', sans-serif;
+    font-size:38px;
+    text-transform:uppercase;
+    display:inline-block;
+}
+.btm-four {
+    padding: 8px 64px;
+    color: #ed145b;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    position: absolute;
+    top: 19%;
+    left: -2%;
+    text-transform: uppercase;
+}
+
+.btm-four:hover{
+    background-color:slategrey;;
+    color:whitesmoke;
+}
+
+.member-padding{
+    padding:70px;
+}
+.update h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.update p{
+    margin-top:35px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.card-text p{
+    color:slategrey;
+    text-align:left;
+}
+.my-card{
+    margin-top:50px;
+}
+
+.toward{
+    background:url(../img/hero-bg.png) center top;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    position:relative;
+}
+
+.toward h1{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.toward p{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    margin-top:30px;
+}
+
+.misc{
+    margin-top:9px;
+}
+
+.share{
+    position:relative;
+}
+.share p{
+    margin-top:25px;
+}
+
+.share-content{
+    margin-top:50px;
+}
+
+.footer-content {
+    display: block;
+    padding: 0px 16px 0px 329px;
+}
